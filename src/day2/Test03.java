@@ -21,11 +21,12 @@ public class Test03 {
         System.out.print("문자열을 입력해주세요: ");
         String a = sc.next();
 
+        // 제한 사항
         if (!(1 <= a.length() && a.length() <= 10)) {
             System.out.println("10글자 안으로 입력해주세요");
         } else {
             for (int i = 0; i < a.length(); i++) {
-                System.out.printf("%c%n", a.charAt(i));
+                System.out.printf("%c%n", a.charAt(i)); // 인덱스에 해당하는 문자를 출력
             }
         }
     }

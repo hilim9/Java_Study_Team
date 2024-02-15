@@ -33,6 +33,7 @@ public class Test05 {
     public static String wordChange(String my_string, String overwrite_string, int s) {
         String answer = "";
 
+        // 제한 사항
         if (!(0 < my_string.length() && 0 < overwrite_string.length() && 0 <= s && my_string.length() > overwrite_string.length()))
             System.out.print("조건에 맞춰서 다시 입력해주세요");
 

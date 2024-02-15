@@ -17,6 +17,7 @@ public class Test01 {
         System.out.print("두번째 정수를 입력해주세요: ");
         int b = sc.nextInt();
 
+        // 제한 사항
         if (!(1 <= a && a <= 100 && 1 <= b && b <= 100))
             System.out.print("1에서 100사이로 입력해주세요");
         else System.out.printf("%d + %d = %d",a,b,(a+b));
