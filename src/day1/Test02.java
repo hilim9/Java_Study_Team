@@ -25,6 +25,7 @@ public class Test02 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+        // 제한 사항
         if (!(-100000 <= a && a <= 100000) && (-100000 <= b && b <= 100000)) {
             System.out.println("범위 안의 수를 입력하세요");
         }

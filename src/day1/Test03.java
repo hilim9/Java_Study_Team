@@ -46,19 +46,5 @@ public class Test03 {
             System.out.println(result);
             break;
         }
-
-
-        /*Scanner sc = new Scanner(System.in);
-
-        String str = sc.next();
-        int n = sc.nextInt();
-
-        String result = "";
-
-        for (int i = 1; i <= n; i++) {
-            result += str;
-        }
-        System.out.println(result);*/
-
     }
 }

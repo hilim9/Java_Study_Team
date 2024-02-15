@@ -19,6 +19,7 @@ public class Test01 {
         System.out.print("문자를 입력해주세요: ");
         String str = sc.next();
 
+        // 제한사항
         if (!(1 <= str.length() && 1000000 >= str.length())) System.out.println("길이에 맞춰 입력해주세요");
         else System.out.print(str);
     }
