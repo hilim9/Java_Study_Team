@@ -3,6 +3,8 @@ package day5;
 public class Test05 {
     public static void main(String[] args) {
 
+        // 이어붙인 수
+
         int[] num1 = {3, 4, 5, 2, 1};
         int[] num2 = {5, 7, 8, 3};
 
