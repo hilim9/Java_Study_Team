@@ -14,27 +14,24 @@ public class Test01 {
         int mode = 0;
 
         for (int i = 0; i < code.length(); i++) {
-            if(mode == 0) {
-                if (code.charAt(i) != '1') { // mode가 0이고 문자가 1이 아닐 때
-                    if (i % 2 == 0) {
-                        answer += code.charAt(i); // code의 인덱스가 짝수 일 때
+            if(mode == 0) { // mode가 0 일때
+                if (code.charAt(i) != '1') { // 문자가 1이 아닐 때
+                    if (i % 2 == 0) { // code의 인덱스가 짝수 일 때
+                        answer += code.charAt(i);
                     }
                 } else {
                     mode = 1;
                 }
-
-            } else {
-                if (code.charAt(i) != '1') {
-                    if (i % 2 == 1) {
-                        answer += code.charAt(i); // code의 인덱스가 짝수 일 때
+            } else { // mode가 0이 아닐 때 (1일 때)
+                if (code.charAt(i) != '1') { // 문자가 1이 아닐 때
+                    if (i % 2 == 1) { // code의 인덱스가 홀수 일 때
+                        answer += code.charAt(i);
                     }
                 } else {
                     mode = 0;
                 }
             }
-
         }
-
-        return answer.length() == 0? "EMPTY": answer;
+        return answer.length() == 0? "EMPTY": answer; // 길이가 0일 때 (빈 문자열일 때) EMPTY 반환
     }
 }
