@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Test05 {
     public static void main(String[] args) {
 
-        // 수열과 구간 쿼리 3
+        // 수열과 구간 쿼리 2
         int[] arr = {0, 1, 2, 4, 3};
         int[][] queries = {{0,4,2},{0,3,2},{0,2,2}};
 
-        System.out.println(Arrays.toString(solution(arr, queries)));
+        System.out.println("결과: " + Arrays.toString(solution(arr, queries)));
 
     }
 
