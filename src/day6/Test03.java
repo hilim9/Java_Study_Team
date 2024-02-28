@@ -15,10 +15,10 @@ public class Test03 {
         String answer = "";
 
         for (int i = 0; i < numLog.length -1; i++) {
-            if (numLog[i] + 1 == numLog[i + 1]) answer += 'w'; // 현재 인덱스의 숫자를 1만큼 더했을 때 같으면 뒤의 인덱스 숫자와 같으면 w 추가
-            else if (numLog[i] - 1 == numLog[i + 1]) answer += 's'; // 현재 인덱스의 숫자를 1만큼 뺐을 때 같으면 뒤의 인덱스 숫자와 같으면 s 추가
-            else if (numLog[i] + 10 == numLog[i + 1]) answer += 'd'; // 현재 인덱스의 숫자를 10만큼 더했을 때 같으면 뒤의 인덱스 숫자와 같으면 d 추가
-            else answer += 'a'; // 현재 인덱스의 숫자를 10만큼 뺐을 때 같으면 뒤의 인덱스 숫자와 같으면 a 추가
+            if (numLog[i] + 1 == numLog[i + 1]) answer += 'w'; // 현재 인덱스에 위치한 숫자를 1만큼 더했을 때 같으면 뒤의 인덱스에 위치한 숫자와 같으면 w 추가
+            else if (numLog[i] - 1 == numLog[i + 1]) answer += 's'; // 현재 인덱스에 위치한 숫자를 1만큼 뺐을 때 같으면 뒤의 인덱스에 위치한 숫자와 같으면 s 추가
+            else if (numLog[i] + 10 == numLog[i + 1]) answer += 'd'; // 현재 인덱스에 위치한 숫자를 10만큼 더했을 때 같으면 뒤의 인덱스에 위치한 숫자와 같으면 d 추가
+            else answer += 'a'; // 현재 인덱스에 위치한 숫자를 10만큼 뺐을 때 같으면 뒤의 인덱스에 위치한 숫자와 같으면 a 추가
         }
 
         return answer;
