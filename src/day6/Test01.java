@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class Test01 {
     public static void main(String[] args) {
 
+        // 마지막 두 원소
+
         int[] num_list1 = {2, 1, 6};
         int[] num_list2 = {5, 2, 1, 7, 5};
 
