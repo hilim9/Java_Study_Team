@@ -109,6 +109,11 @@ public class Test02 {
             count[n] = Collections.frequency(list, n);
         }
 
+        Collection 안에 있는 객체가 몇번 등장했는지를 리턴해준다.
+
+        Collections.frequency(객체를 담고 있는 컬렉션 인스턴스, 기대하는 객체)
+
+
         for (int i : count) {
             if (count[i] == 4) answer = 1111 * a; // 모두 같을 때
             else if (count[i] == 3) { // 세 개가 같을 때
