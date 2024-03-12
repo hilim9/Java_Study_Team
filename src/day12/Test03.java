@@ -6,6 +6,8 @@ import java.util.List;
 public class Test03 {
     public static void main(String[] args) {
 
+        // 배열 만들기 3
+
         int[] arr = {1, 2, 3, 4, 5};
         int[][] intervals = {{1, 3},{0, 4}};
 

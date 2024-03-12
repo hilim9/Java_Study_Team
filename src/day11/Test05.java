@@ -3,7 +3,7 @@ package day11;
 public class Test05 {
     public static void main(String[] args) {
 
-        // 가까운 1찾기
+        // 가까운 1 찾기
 
         int[] arr1 = {0, 0, 0, 1};
         int[] arr2 = {1, 0, 0, 1, 0, 0};

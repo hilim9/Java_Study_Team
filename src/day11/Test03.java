@@ -6,6 +6,8 @@ import java.util.Collections;
 public class Test03 {
     public static void main(String[] args) {
 
+        // 글자 지우기
+
         int[] indices = {1, 16, 6, 15, 0, 10, 11, 3};
 
         System.out.println("result: " + solution("apporoograpemmemprs", indices));

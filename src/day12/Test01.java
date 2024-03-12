@@ -6,6 +6,8 @@ import java.util.List;
 public class Test01 {
     public static void main(String[] args) {
 
+        // 리스트 자르기
+
         int[] slicer = {1, 5, 2};
         int[] num_list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 

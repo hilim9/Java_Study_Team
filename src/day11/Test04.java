@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class Test04 {
     public static void main(String[] args) {
 
+        // 카운트 다운
+
         System.out.println(Arrays.toString(solution(10, 3)));
 
     }
