@@ -19,11 +19,11 @@ public class Test01 {
         for(int i = 0; i < my_string.length(); i++) {
             if ((my_string.charAt(i) + "").equals((my_string.charAt(i) + "").toUpperCase())) { // 대문자 일 때
                 int A = my_string.charAt(i);
-                //System.out.println(a);
+                //System.out.println(A);
                 answer[A -65]++;
             } else { // 소문자 일 때
                 int a = my_string.charAt(i);
-                //System.out.println(b);
+                //System.out.println(a);
                 answer[a -71]++;
             }
         }
