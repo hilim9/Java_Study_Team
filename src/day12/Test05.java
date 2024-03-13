@@ -1,8 +1,6 @@
 package day12;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Test05 {
     public static void main(String[] args) {
@@ -16,6 +14,10 @@ public class Test05 {
     }
 
     public static int[] solution(int[] arr, int[] query) {
+
+        // Arrays.copyOfRange()
+        // Arrays.copyOfRange(복사할 원본 배열, 복사를 시작할 인덱스, 복사를 끝낼 인덱스)
+        // 지정한 배열에서 특정 범위만큼의 요소들을 복사해 새로운 배열로 반환한다.
 
         for(int i =0; i<query.length; i++) {
             if(i % 2 == 0) { // 짝수 일 때
