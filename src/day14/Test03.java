@@ -6,6 +6,8 @@ import java.util.List;
 public class Test03 {
     public static void main(String[] args) {
 
+        // 할 일 목록
+
         String[] todo_list = {"problemsolving", "practiceguitar", "swim", "studygraph"};
 
         boolean[] finished = {true, false, true, false};
