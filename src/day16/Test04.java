@@ -21,4 +21,11 @@ public class Test04 {
 
         return answer;
     }
+
+    /*public String solution(String myString) {
+        String answer = "";
+        myString = myString.toLowerCase();
+        answer = myString.replace("a","A");
+        return answer;
+    }*/
 }
