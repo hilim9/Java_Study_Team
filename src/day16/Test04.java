@@ -3,12 +3,21 @@ package day16;
 public class Test04 {
     public static void main(String[] args) {
 
+        // A 강조하기
+
         System.out.println("result: " + solution("abstract algebra"));
         System.out.println("result: " + solution("PrOgRaMmErS"));
 
     }
 
     public static String solution(String myString) {
+        String answer = "";
+        myString = myString.toLowerCase();
+        answer = myString.replace("a","A");
+        return answer;
+    }
+
+    /*public static String solution(String myString) {
         String answer = "";
 
         for(int i = 0; i < myString.length(); i++) {
@@ -19,13 +28,6 @@ public class Test04 {
             } else answer += myString.charAt(i);
         }
 
-        return answer;
-    }
-
-    /*public String solution(String myString) {
-        String answer = "";
-        myString = myString.toLowerCase();
-        answer = myString.replace("a","A");
         return answer;
     }*/
 }
