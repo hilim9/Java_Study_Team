@@ -14,8 +14,9 @@ public class Test01 {
     }
 
     public static String[] solution(String myStr) {
-        String[] answer = myStr.replaceAll("[abc]+", " ").trim().split(" ");
 
-        return answer;
+        return !myStr.matches("[abc]+") ? myStr.replaceAll("[abc]+", " ").trim().split(" ") : new String[]{"EMPTY"};
+        // !myStr.matches("[abc]+")
+        // myStr가 abc만으로 이루어지지 않았을 때
     }
 }
