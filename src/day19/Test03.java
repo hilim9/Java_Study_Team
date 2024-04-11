@@ -16,7 +16,7 @@ public class Test03 {
     }
 
     public static List<Integer> solution(int[] arr, boolean[] flag) {
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
         for(int i = 0; i < flag.length; i++) {
             if (flag[i]) { // true 일 때
