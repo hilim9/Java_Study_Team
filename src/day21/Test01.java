@@ -9,7 +9,7 @@ public class Test01 {
 
         int[] num_list = {12, 4, 15, 46, 38, 1, 14, 56, 32, 1};
 
-        System.out.println(Arrays.toString(solution(num_list)));
+        System.out.println("result: " + Arrays.toString(solution(num_list)));
 
     }
 
