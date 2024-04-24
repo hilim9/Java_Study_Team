@@ -18,37 +18,20 @@ public class Test02 {
     public static String[] solution(String[] picture, int k) {
 
         StringBuilder str_k = new StringBuilder();
-        String[] answer = new String[picture.length];
+        String[] answer = new String[picture.length * k];
+        int idx = 0;
 
         for (int i = 0; i < picture.length; i++) {
             for (int j = 0; j < picture[i].length(); j++) {
 
-                str_k.append((picture[i].charAt(j) + "").repeat(k));
+                str_k.append((picture[i].charAt(j) + "").repeat(k)); // 원소를 k번 만큼 반복하여 길이를 늘린다
             }
-
-            answer[i] = str_k.toString();
+            for (int num = 0; num < k; num++) { // k번 만큼 배열에 넣는다
+                answer[idx++] = str_k.toString();
+            }
             str_k.delete(0, str_k.length());
         }
 
         return answer;
     }
-
-
-    /*public static String[] solution(String[] picture, int k) {
-
-        StringBuilder str_k = new StringBuilder();
-        String[] answer = new String[picture.length];
-
-        for (int i = 0; i < picture.length; i++) {
-            for (int j = 0; j < picture[i].length(); j++) {
-
-                str_k.append((picture[i].charAt(j) + "").repeat(k));
-            }
-
-            answer[i] = str_k.toString();
-            str_k.delete(0, str_k.length());
-        }
-
-        return answer;
-    }*/
 }
