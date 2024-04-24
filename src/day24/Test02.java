@@ -26,7 +26,7 @@ public class Test02 {
 
                 str_k.append((picture[i].charAt(j) + "").repeat(k)); // 원소를 k번 만큼 반복하여 길이를 늘린다
             }
-            for (int num = 0; num < k; num++) { // k번 만큼 배열에 넣는다
+            for (int n = 0; n < k; n++) { // k번 만큼 배열에 넣는다
                 answer[idx++] = str_k.toString();
             }
             str_k.delete(0, str_k.length());
